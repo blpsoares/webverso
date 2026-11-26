@@ -119,7 +119,7 @@ export function GalaxyHubSpace() {
       {/* Physics para objetos interativos */}
       <Physics gravity={[0, -9.8, 0]}>
         {/* Chão (invisível) */}
-        <RigidBody type="fixed" position={[0, -3, 0]}>
+        <RigidBody type="fixed" position={[0, 1.6, 0]}>
           <mesh visible={false}>
             <boxGeometry args={[100, 1, 100]} />
           </mesh>
